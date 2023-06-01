@@ -9,6 +9,7 @@ const Form = () => {
     const onSubmit = (e) => {
         e.preventDefault();
         console.log({city});
+        if(city === "" || !city) return; //si city esta vacia o no contiene nada, returna 
     }
 
     return (
