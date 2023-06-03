@@ -1,13 +1,13 @@
 import './assets/App.css';
 import NavBar from './components/NavBar';
-import Form from './components/Form';
+import Weather from './components/Weather'
 
 function App() {
   return (
     <div className="App">
 
       <NavBar />
-      <Form />
+      <Weather />
       
     </div>
   );
