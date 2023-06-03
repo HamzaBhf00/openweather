@@ -3,10 +3,10 @@ import Form from './Form';
 
 const Weather = () => {
     //API y lan es lenguaje Español
-    let url = "https://api.openweathermap.org/data/2.5/weather?appid=4181f68df930ee121ab792f7ec0b9ed4&lang=es"; 
+    let url = "https://api.openweathermap.org/data/2.5/weather?appid=&lang=es"; 
     let cityUrl = "&q=";
 
-    let urlForecast="https://api.openweathermap.org/data/2.5/forecast?appid=4181f68df930ee121ab792f7ec0b9ed4&lang=es"
+    let urlForecast="https://api.openweathermap.org/data/2.5/forecast?appid=&lang=es"
 
     const [weather, setWeather] = useState([]);
     const [forecast, setForecast] = useState([]);
